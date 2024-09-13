@@ -52,3 +52,11 @@ python app.py
 
 * Running arbitrary scripts on the server can be a security risk. Make sure you limit the scripts that can be run and implement appropriate authentication and authorization mechanisms.
 * Scripts must be located in a secure directory and accessible only by the application.
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/782e616c6d/Batchy/blob/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/782e616c6d/Batchy/blob/output/github-contribution-grid-snake.svg">
+    <br><img alt="github-snake" src="https://github.com/782e616c6d/Batchy/blob/output/github-contribution-grid-snake.svg" width="450px"/>
+  </picture>
+</div>

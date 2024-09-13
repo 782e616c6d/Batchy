@@ -1,5 +1,6 @@
+<div id="header" align="center">
 <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" alt="py-logo" width="200"/>
-
+</div>
   
 This project allows scripts to be executed remotely via a web interface.
 

@@ -1,53 +1,53 @@
 <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" alt="py-logo" width="200"/>
 
   
-Este projeto permite a execução remota de scripts através de uma interface web.
+This project allows scripts to be executed remotely via a web interface.
 
-### Tecnologias Utilizadas
+### Technologies Used
 
-* Flask (Python): Framework web para desenvolvimento do servidor.
-* HTML: Estrutura da página web.
-* JavaScript: Funcionalidade interativa do cliente.
+* Flask (Python): Web framework for server development.
+* HTML: Web page structure.
+* JavaScript: Interactive client functionality.
 
-### Como Funciona
+### How it works
 
-1. O usuário acessa a página web.
-2. Ao clicar em um dos botões "Run Script", o caminho do script correspondente é enviado ao servidor.
-3. O servidor Flask recebe a requisição e executa o script informado.
-4. O resultado da execução (sucesso ou erro) é enviado de volta para a página web.
-5. A mensagem de resultado é exibida para o usuário.
+1. The user accesses the web page.
+2. By clicking on one of the “Run Script” buttons, the path of the corresponding script is sent to the server.
+3. The Flask server receives the request and executes the script provided.
+4. The result of the execution (success or error) is sent back to the web page.
+5. The result message is displayed to the user.
 
-### Requisitos
+### Requirements
 
 * Python 3.x
 * Flask
 
-### Instalação
+### Installation
 
-1. Clone este repositório.
-2. Instale as dependências:
+1. Clone this repository.
+2. Install the dependencies:
 
 ```bash
 pip install flask
 ```
 
-### Executando o Projeto
+### Running the Project
 
-1. Navegue até a pasta do projeto.
-2. Execute o seguinte comando:
+1. Navigate to the project folder.
+2. Run the following command:
 
 ```bash
 python app.py
 ```
 
-3. Acesse `http://127.0.0.1:5000/` em seu navegador web.
+3. Access `http://127.0.0.1:5000/` in your web browser.
 
-### Uso
+### Usage
 
-* Altere os caminhos dos scripts definidos nas variáveis `bottom1`, `bottom2`, e `bottom3` no arquivo `script.js`.
-* Clique em um dos botões "Run Script" para executar o script correspondente.
+* Change the paths of the scripts defined in the `bottom1`, `bottom2`, and `bottom3` variables in the `script.js` file.
+* Click on one of the “Run Script” buttons to execute the corresponding script.
 
-### Considerações de Segurança
+### Security Considerations
 
-* **Atenção:** Executar scripts arbitrários no servidor pode ser um risco de segurança. Certifique-se de limitar os scripts que podem ser executados e implementar mecanismos de autenticação e autorização adequados.
-* Os scripts devem estar localizados em um diretório seguro e acessível apenas pelo aplicativo.
+* Running arbitrary scripts on the server can be a security risk. Make sure you limit the scripts that can be run and implement appropriate authentication and authorization mechanisms.
+* Scripts must be located in a secure directory and accessible only by the application.
